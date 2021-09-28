@@ -1,14 +1,23 @@
 package cz.cvut.k36.omo.hw.hw01;
 
 public class Homework1 {
-    private int count = 0;
-    private static int staticCount = 0;
 
-    public boolean f() { return true; }
+  private int count = 0;
+  private static int staticCount = 0;
 
-    public static boolean g() { return false; }
+  public boolean f() {
+    return true;
+  }
 
-    public int h() { return ++count; }
+  public static boolean g() {
+    return false;
+  }
 
-    public int i() { return ++staticCount; }
+  public int h() {
+    return ++count;
+  }
+
+  public int i() {
+    return ++staticCount;
+  }
 }
